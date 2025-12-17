@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your professional web portfolio Developer" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, Portfolio, Developer" />
+    <meta name="author" content="Sakhawat Hussain" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Sakhawat Hussain</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/img01.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+
+</head>
+<body class="theme-default">
+    <header>
+        <div class="header-content">
+            <img src="/img01.jpg" alt="Profile" class="profile-img">
+            <h1 id="glitch-name">Sakhawat Hussain</h1>
+        </div>
+        <button class="theme-btn" id="themeToggle">Themes</button>
+    </header>
+
+    <button class="sidebar-btn" id="sidebarToggle">
+    </button>
+
+    <div class="sidebar" id="sidebar">
+        <nav class="sidebar-nav">
+            <a href="#" class="nav-link" data-page="home" style="--clr:#3498db;"><i class="fas fa-home"></i> Home</a>
+            <a href="#" class="nav-link" data-page="about" style="--clr:#8e44ad;"><i class="fas fa-user"></i> About</a>
+            <a href="#" class="nav-link" data-page="skills" style="--clr:#f39c12;"><i class="fas fa-code"></i> Skills</a>
+            <a href="#" class="nav-link" data-page="projects" style="--clr:#27ae60;"><i class="fas fa-project-diagram"></i> Projects</a>
+            <a href="#" class="nav-link" data-page="works" style="--clr:#27ae60;"><i class="fas fa-briefcase"></i>Works</a>
+            <a href="#" class="nav-link" data-page="contact" style="--clr:#e74c3c;"><i class="fas fa-envelope"></i> Contact</a>
+        </nav>
+    </div>
+
+    <main>
+        <div class="page active" id="home-page">
+            <section class="welcome-section">
+                <h1>Hello World! </h1>
+                <div id="raining"></div>
+            </section>
+
+            <section class="profile-section">
+                <div class="home-content">
+            <h1>Hi, I'm  <br>
+                <span id="typer"></span></h1>
+                    <p>I specialize in creating stunning, responsive <strong>websites, landing pages, </strong> and <strong>online stores</strong>.
+                Whether you need a <strong>bussines website, portfolios, or e-commerece </strong>solution, I can bring your vision into life with clean code and modern designs. </p>
+                <div class="home-sci">
+             <a href="https://wa.me/+923261190172" style="--clr:#38ef7d;"><i class="fab fa-whatsapp"></i></a>
+             <a href="https://www.facebook.com/profile.php?id=100067803342044" style="--clr:#3498db;"><i class="fab fa-facebook"></i></a>
+             <a href="https://youtube.com/@codetraq" style="--clr:#fdfbfb;"><i class="fab fa-youtube"></i></a>
+             <a href="https://x.com/Sakhawat010101?t=sr76zeeLHxK2xXW7_WcR2A&s=09" style="--clr:#0f0f0f;"><i class="fab fa-x"></i></a>
+        </div>
+            </section>
+
+        </div>
+
+        <div class="page" id="about-page">
+            <section class="about-section">
+                <img src="/img-2.jpg" alt="Main Profile" class="main-profile">
+                <h2>About Me</h2>
+                <p>My journey into the world of web and creative development wasn’t just curiosity, it was a spark that lit a fire inside me. From the very beginning, I wasn’t satisfied with just understanding how websites work, I wanted to bend them, mold them, and make them magical. </p>
+                <p>I started with HTML and CSS, but I didn’t stop there. I taught myself, experimented, failed, reimagined, and kept evolving.</p>
+                <p>Over time, what began as an interest turned into a mission: to build futuristic, interactive digital experiences that don’t just serve a purpose but leave an impression. Whether it’s an animated canvas, a game, a glowing galaxy, or a heartfelt birthday animation, I strive to bring emotion and innovation together through code.</p>
+                <p>What defines me most is my hunger to keep learning, creating, and pushing boundaries. In a world where tech changes every second, I don’t just keep up. I try to stay one step ahead. Every project I make is a piece of my journey, and I’m just getting started.</p>
+            </section>
+        </div>
+
+        <div class="page" id="skills-page">
+            <section class="skills-section">
+                <h2>My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon" style="--clr: #e44d26;">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <h3>HTML5</h3>
+                        <p>Clean, semantic structure with accessibility and SEO in mind.</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon" style="--clr: #264de4;">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <h3>CSS3</h3>
+                        <p>Responsive layouts, animations, Flexbox & Grid mastery.</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon" style="--clr: #f7df1e;">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <h3>JavaScript</h3>
+                        <p>Dynamic logic, DOM control, and async interactions.</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon" style="--clr: #9b59b6;">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3>Animation Design</h3>
+                        <p>CSS, SVG & Canvas animations with smooth, expressive motion.</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon" style="--clr: #34495e;">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <h3>Gaming Dev</h3>
+                        <p>Creative game logic using JavaScript & Phaser.js basics.</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon" style="--clr: #16a085;">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Landing Pages</h3>
+                        <p>Fast, responsive, high-converting page designs.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="page" id="projects-page">
+            <section class="projects-section">
+                <div class="projects-header">
+                    <h2>My Projects</h2>
+<div class="project-links">
+    <a href="#" class="project-link" data-project="web">Web Projects</a>
+    <a href="#" class="project-link" data-project="design">Design Projects</a>
+    <a href="#" class="project-link" data-project="game">Game Projects</a>
+</div>
+</div>
+
+<div class="project-display">
+    <div class="project-item" id="web-project">
+    <h3>Animated Portfolio Website</h3>
+    <p>A personal portfolio built with glowing animations, canvas effects, parallax backgrounds, and interactive elements.</p>
+
+    <h3>UI Components Collection</h3>
+    <p>Custom-designed buttons, name links, login forms, and cards, all with hover effects, neon styling, and keyframe animations.</p>
+
+    <h3>Parallax Scrolling Page</h3>
+    <p>A single-page site with multi-layered parallax effects and scroll-triggered animations for modern presentation.</p>
+
+    <h3>Image Handling Interface</h3>
+    <p>Interactive layout to split, animate, and reshuffle images using JavaScript logic and user interaction.</p>
+</div>
+
+<div class="project-item" id="design-project">
+    <h3>Interactive Canvas Animations</h3>
+    <p>Designed visual effects like galaxy tunnels, heart rains, and birthday sparkles using canvas, mouse interactions, and custom animations.</p>
+    <p><strong>Tools:</strong> HTML Canvas, CSS, JavaScript</p>
+
+    <h3>Creative UI Animations</h3>
+    <p>Built a wide range of hover, click, and scroll-based animations — from glowing buttons to dynamic text reveals and loaders.</p>
+    <p><strong>Tools:</strong> CSS Keyframes, GSAP, Vanilla JS</p>
+
+    <h3>Logo & Visual Design</h3>
+    <p>Created simple logos, icons, and visual mockups using mobile tools and canvas — combining art with functionality.</p>
+    <p><strong>Tools:</strong> Picsart, Adobe Express, Canvas Drawing</p>
+
+    <h3>Web Design Concepts</h3>
+    <p>Styled multiple web interfaces with a focus on color, layout, responsiveness, and user interaction flow.</p>
+    <p><strong>Tools:</strong> HTML, CSS, Responsive Design</p>
+</div>
+
+    <div class="project-item" id="game-project">
+    <h3>Image Shuffle Puzzle</h3>
+    <p>A drag-and-drop puzzle game where image pieces randomly swap places — the player must reassemble the original image correctly.</p>
+
+    <h3>Number Rearranging Game</h3>
+    <p>A logic-based game where players rearrange shuffled numbers into ascending order within a fixed grid.</p>
+
+    <h3>Image Piece Puzzle</h3>
+    <p>A creative challenge where a single image is split into multiple small tiles, and players must reorder them to form the complete image.</p>
+
+    <h3>Dice Race Game</h3>
+    <p>Two-player game where each player rolls a dice to move from 0 to 100, avoiding forward and backward jump boxes to win.</p>
+    <p><strong>Technologies:</strong> JavaScript, Random Logic</p>
+</div>
+
+</div>
+
+                
+            </section>
+
+        </div>
+        <div class="page" id="works-page">
+            <div class="workLinkspage">
+            <div class="work-container" id="work-container">
+                <a style="--clr:#00FFFF;"  href="#NextOne" class="work-links" data-index="0">Next</a>
+                <a style="--clr:#8E44AD;"  href="#bloodBubbles" class="work-links" data-index="1">Blood</a>
+                <a style="--clr:#1F51FF;"  href="#waterBubbles" class="work-links" data-index="2">Bubbles</a>
+                <a style="--clr:#FFD700;"  href="#typingContainer" class="work-links" data-index="3">Typing</a>
+                <a style="--clr:#FF00FF;"  href="#pNetwork" class="work-links" data-index="4">Network</a>
+                <a style="--clr:#39FF14;"  href="#Hacking01" class="work-links" data-index="5">Hack</a>
+                <a style="--clr:#FF3131;"  href="#numbersGame" class="work-links" data-index="6">Game</a>
+                <a style="--clr:#00FFB2;"  href="#clickSpark" class="work-links" data-index="7">Spark</a>
+            </div>
+        </div>
+        <div class="workPage" id="workPage">
+            <div id="NextOne" class="works">
+                <h2>Here I will add my other website link which you my lot of projects and animations. Soon</h2>
+                <a href="#">Soon</a>
+            </div>
+            <div id="bloodBubbles" class="works">
+                <div class="bubbleCreates">
+                <svg>
+                    <filter id="gooey">
+                        <feGaussianBlur in="SourceGraohic" stdDeviation="10" />
+                        <feColorMatrix values ="1 0 0 0 1
+                        0 0 0 0 0 
+                        1 0 0 0 0
+                        0 0 0 50 -10" />
+                    </filter>
+                </svg>
+            </div>
+            </div>
+            <div id="waterBubbles" class="works">
+                <div id="WB" class="WB"></div>
+            </div>
+           <div class="works" id="typingContainer">
+   <h1 class="Th1">Typing Practice</h1>
+   <div class="stats">
+  <div class="stat-item">
+ Progress: <span id="progress" class="stat-value">0%</span>
+  </div>
+  <div class="stat-item">
+ Word: <span id="typed" class="stat-value">0</span>/<span id="total" class="stat-value">0</span>
+  </div>
+  <div class="stat-item">
+ Errors: <span id="errors" class="stat-value">0</span>
+  </div>
+  <div class="stat-item">
+ Time: <span id="timer" class="stat-value">0s</span>
+  </div>
+  <div class="stat-item">
+ Accuracy: <span id="accuracy" class="stat-value">100%</span>
+  </div>
+  <div class="stat-item">
+    Level:
+    <select id="level" class="stat-value">
+      <option value="easy">Easy</option>
+      <option value="normal" selected>Normal</option>
+      <option value="hard">Hard</option>
+    </select>
+  </div>
+   </div>
+
+   <div class="text-container">
+  <div id="typing-text"></div>
+   </div>
+
+   <div class="controls">
+  <button class="btn-t" id="reset-btn">Reset</button>
+  <button class="btn-t" id="new-text-btn">Next</button>
+   </div>
+
+   <div class="results" id="results">
+  <h2>Typing Results</h2>
+  <p>Time: <span id="result-time">0</span> seconds</p>
+  <p>Accuracy: <span id="result-accuracy">100%</span></p>
+  <p>Letters per Second: <span id="result-lps">0</span></p>
+  <p>Words per Minute: <span id="result-wpm">0</span></p>
+   </div>
+    </div>
+            <div id="pNetwork" class="works">
+                <canvas id="particleCanvas"></canvas>
+            </div>
+            <div id="Hacking01" class="works">
+              <div class="hacker-terminal">
+        <div class="terminal-header">
+            <span class="red-dot"></span>
+            <span class="yellow-dot"></span>
+            <span class="green-dot"></span>
+            <span class="terminal-title">code@traQ:~</span>
+        </div>
+        <div id="terminal-text"></div>
+        <span class="blinking-cursor">_</span>
+    </div>
+          <button id="initializing">Scan</button>  
+</div>
+           <div id="numbersGame" class="works">
+                <h2>Welcome to Number Puzzle Game</h2>
+                <p class="para2">
+                    In this game, you have to rearrange numbers in mathematics alfabet.
+                    When you just start click on Any box , your time will be start,
+                    and you have to solve this puzzle in minimum time.
+                    There are aslo levels by which you can increase your ability.
+                    Have a fun!
+                </p>
+                <div id="number-game-container">
+                      <div class="numberTimer">Time: <span id="numberTimer"> 00:00</span></div>
+                      <label for="levels" class="label2">Level:
+                        <select id="levels">
+                          <option value="easy" selected>Easy</option>
+                          <option value="normal">Normal</option>
+                          <option value="hard">Hard</option>
+                          <option value="extreme">Extreme</option>
+                          <option value="extremeHard">Extra</option>
+                        </select> </label>
+                      <div class="outerNumberCotainer">
+                        <div class="numberContainer" id="numberContainer"></div>
+                      </div>
+                      <div class="controls" id="controls">
+                        <button id="numberReset">Shuffle</button>
+                      </div></div></div>
+            <div id="clickSpark" class="works">
+                        <canvas id="spark-canvas"></canvas>
+            </div>
+        </div>
+        </div>
+        <div class="page" id="contact-page">
+            <section class="contact-section">
+                <h2>Contact Me</h2>
+                
+                <div class="contact-methods">
+                    <a href="mailto:sakhawathussain0172@gmail.com" class="contact-method" style="--clr:#D44638;">
+                        <i class="fas fa-envelope contact-icon"></i>
+                        <span>sakhawathussain0172@gmail.com</span>
+                    </a>
+                    <a href="https://wa.me/+923261190172" class="contact-method" style="--clr:#25D366;">
+                        <i class="fab fa-whatsapp contact-icon"></i>
+                        <span>Whatsapp</span>
+                    </a>
+                    <a href="https://youtube.com/@codetraq" class="contact-method" style="--clr:#FF0000;">
+                        <i class="fab fa-youtube contact-icon"></i>
+                        <span>YouTube</span>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100067803342044" class="contact-method" style="--clr:#1877F2;">
+                        <i class="fab fa-facebook contact-icon"></i>
+                        <span>Facebook</span>
+                    </a>
+                </div>
+
+                <form class="contact-form" name="contact" method="POST" data-netlify="true">
+  <input type="hidden" name="form-name" value="contact">
+  
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <textarea name="message" placeholder="Note: Currently it is not working due to typing project." required></textarea>
+  <button type="submit" class="submit-btn">Send Message</button>
+</form>
+
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p> &hearts; Portfolio. Started in 2022. Designed with passion, powered by creativity.</p>
+        <div class="links-b"> <div>
+            <a href="#" class="nav-link" data-page="home" style="--clr:#3498db;"><i class="fas fa-home"></i> Home</a>
+            <a href="#" class="nav-link" data-page="about" style="--clr:#8e44ad;"><i class="fas fa-user"></i> About</a>
+            <a href="#" class="nav-link" data-page="contact" style="--clr:#e74c3c;"><i class="fas fa-envelope"></i> Contact</a> </div>
+            <div>
+            <a href="#" class="nav-link" data-page="skills" style="--clr:#f39c12;"><i class="fas fa-code"></i> Skills</a>
+            <a href="#" class="nav-link" data-page="projects" style="--clr:#27ae60;"><i class="fas fa-project-diagram"></i> Projects</a>
+            <a href="#" class="nav-link" data-page="works" style="--clr:#27ae60;"><i class="fas fa-briefcase"></i>Works</a>
+        </div></div>
+    </footer>
+    <!-- Network Loading Spinner -->
+<div id="network-loader">
+  <div class="spinner">
+    <svg width="100px" height="100px" viewBox="0 0 100 100">
+                        <path id="below" d="M50 30 Q35 15, 20 30 Q10 50, 50 85 Q90 50, 80 30 Q65 15, 50 30 Z" />
+                        <path id="up" d="M50 30 Q35 15, 20 30 Q10 50, 50 85 Q90 50, 80 30 Q65 15, 50 30 Z" />
+                      </svg>
+  </div>
+  <p>Please connect with the network...</p>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
