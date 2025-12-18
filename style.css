@@ -307,7 +307,7 @@ main {
 .profile-section {
 display: flex;
     align-items: center;
-    background-image: url('img-1.png') no-repeat;
+    background: url('img-1.png') no-repeat;
     background-size: cover;
     background-position: center;
     height: 90vh;
@@ -1326,4 +1326,5 @@ body.theme-red .project-link:hover {
   }
 
 }
+
 
